@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e5d2bf;
+    color: #0e642b;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-top: px; 
+    vertical-align: middle;
+  }
+  header {
+    background-color:#b07840;
+    color: #e5d2bf;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #e5d2bf;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #043a30;
+  }
+  
+  #hero {
+    background:linear-gradient( to bottom,#b07840,#e5d2bf);
+    color: #0f7230d2;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+
+
+  #hero img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+  }
+  
+  #hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: transparent;
+    color: #07493c;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s; 
+  }
+  
+  .btn:hover {
+    background-color: rgb(138, 158, 155);
+  }
+
+  
+  section .btn{
+    align-items: center;
+  }
+  section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projetos-lista {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .projeto {
+    background: transparent;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.411);
+  }
+  
+  .projeto h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .projeto a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #01775f;
+    text-decoration: none;
+  }
+  
+  .projeto a:hover {
+    text-decoration: underline;
+  }
+  
+  .contato-lista li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    background-color: transparent;
+    color: #007a41;
+  }
+  
+  @media (min-width: 768px) {
+    .projetos-lista {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
