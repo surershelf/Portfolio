@@ -139,7 +139,6 @@ footer {
   }
 }
 
-/* 🎯 Stack Slider */
 .stack-slider {
   overflow: hidden;
   background-color: #f6f1e7;
@@ -151,24 +150,25 @@ footer {
 .stack-track {
   display: flex;
   width: max-content;
-  animation: scroll-left 40s linear infinite;
+  animation: scroll-left 20s linear infinite;
 }
 
 .stack-item {
   display: inline-flex;
   align-items: center;
   margin: 0 24px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #5e3e2f;
   font-weight: 500;
   white-space: nowrap;
 }
 
 .stack-item img {
-  width: 18px;
-  height: 18px;
-  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
+
 
 @keyframes scroll-left {
   0% {
