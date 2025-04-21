@@ -38,4 +38,19 @@ body {
     font-size: 1.1rem;
     line-height: 1.6;
   }
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: transparent;
+    color: #5e3e2f;
+    border: 2px solid #5e3e2f;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
   
+  .btn:hover {
+    background-color: #d2b48c;
+    color: #3a241a;
+  }
