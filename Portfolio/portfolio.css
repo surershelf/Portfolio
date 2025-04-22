@@ -25,8 +25,8 @@ body {
 }
 
 header {
-  background-color: #a67c52; /* marrom claro */
-  color: #f6f1e7; /* creme claro */
+  background-color: #f6f1e7; /* marrom claro */
+  color: #4b2e2e; /* creme claro */
   padding: 1rem 0;
 }
 
@@ -43,7 +43,7 @@ nav ul {
 }
 
 nav a {
-  color: #f6f1e7;
+  color: #4b2e2e;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 #hero {
-  background: linear-gradient(to bottom, #a67c52, #f6f1e7);
+  background-color: #f6f1e7;
   color: #4b2e2e;
   text-align: center;
   padding: 4rem 2rem;
@@ -133,8 +133,8 @@ footer {
   text-align: center;
   padding: 2rem 0;
   font-size: 0.9rem;
-  background-color: transparent;
-  color: #4b2e2e;
+  background-color: #4e2e03;
+  color: #f6f1e7;
 }
 
 @media (min-width: 768px) {

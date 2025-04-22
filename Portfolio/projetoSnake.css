@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 40px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5dc; /* bege claro */
+    background-color: #f6f1e7; /* bege claro */
     color: #4b2e2e; /* marrom escuro */
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@ body {
   }
   
   .snake-container {
-    background-color: #fffaf0; /* creme */
+    background-color: #f7efe1; /* creme */
     border: 2px solid #d2b48c; /* bege/marrom claro */
     border-radius: 16px;
     max-width: 600px;
