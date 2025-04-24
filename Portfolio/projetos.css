@@ -14,7 +14,7 @@ body {
     margin-bottom: 30px;
   }
   
-  .snake-container {
+  .container {
     background-color: #f7efe1; /* creme */
     border: 2px solid #d2b48c; /* bege/marrom claro */
     border-radius: 16px;
@@ -25,7 +25,7 @@ body {
     text-align: center;
   }
   
-  .snake-container video {
+  .container video {
     width: 100%;
     max-height: 400px;
     object-fit: fill;
